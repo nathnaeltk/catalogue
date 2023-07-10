@@ -1,0 +1,73 @@
+/* Custom CSS */
+body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    font-family: Montserrat !important;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.navbar-brand span{
+    color: #db8400;
+}
+
+.container-fluid{
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(13, 55, 84);
+}
+
+.btn{
+    color: white;
+    background-color: rgb(13, 55, 84);
+}
+
+.btn:hover{
+    color: #db8400;
+}
+
+.navbar-brand {
+    margin-left: 120px;
+}
+
+.navbar-nav {
+    margin-right: 120px;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+
+}
+
+.balance{
+    color: #db8400 !important;
+}
+
+
+.channel-photo{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+}
+
+.channel-name{
+    font-weight: bold;
+}
+.channel-description{
+    width: 200px;
+    text-align: justify;
+}
+
+.action-icons{
+    display: grid !important;
+    margin-left: 18px;
+    width: 20px;
+}
