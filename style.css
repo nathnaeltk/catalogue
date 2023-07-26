@@ -29,6 +29,9 @@ nav {
     color: white;
     background-color: rgb(13, 55, 84);
 }
+.fa-solid{
+    color: rgb(13, 55, 84);
+}
 
 .btn:hover{
     color: #db8400;
@@ -57,6 +60,9 @@ nav {
     width: 70px;
     border-radius: 100%;
 }
+.price-cell {
+    width: 160px;
+}
 
 .channel-name{
     font-weight: bold;
@@ -64,10 +70,14 @@ nav {
 .channel-description{
     width: 200px;
     text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .action-icons{
     display: grid !important;
     margin-left: 18px;
-    width: 20px;
 }
