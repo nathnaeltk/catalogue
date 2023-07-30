@@ -59,6 +59,7 @@ nav {
     height: 70px;
     width: 70px;
     border-radius: 100%;
+    border: 1px solid rgb(34, 159, 248);
 }
 .price-cell {
     width: 160px;
@@ -67,6 +68,11 @@ nav {
 .channel-name{
     font-weight: bold;
 }
+
+.red{
+    color: red;
+}
+
 .channel-description{
     width: 200px;
     text-align: justify;
