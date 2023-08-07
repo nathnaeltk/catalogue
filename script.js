@@ -7,7 +7,6 @@ $(document).ready(function() {
   });
 
   
-
     // Get all heart icon elements using their class
     const heartIcons = document.querySelectorAll('.heart-icon');
 
@@ -19,7 +18,6 @@ $(document).ready(function() {
         });
     });
 
-    
 
     // Add a click event listener to each heart icon
     heartIcons.forEach(icon => {
